@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="style1.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Dave </title>
+		<link rel="icon" type="image/x-icon" href="/images/favicon.png">
+
+	</head>
+	<body  onload="changemode1()">
+		<div id="header">
+
+			<!-- phone -->
+			<div id="mySidepanel" class="sidepanel">
+				<a href="javascript:void(0)" style="padding-top: 10px; font-size: larger;
+					color: red;" class="closebtn" onclick="closeNav()"> × </a>
+
+				<div id="modeicon" onclick="changemod()"><img src="images/dark-mode.png"
+						style="height: 20px; " alt=""></div>
+				<a href="/index" class="textmode">Home</a>
+				<a href="/dsa" class="textmode">DSA</a>
+				<a href="/editor" class="textmode">Contest Coding</a>
+				<a href="https://www.youtube.com/channel/UC7bzV5BdSTXufiPwLRrjvxA"
+					class="textmode">Youtube</a>
+				<a href="/contact" class="textmode">Contact me</a>
+			</div>
+			<div class="logoD"><a href="/index"><img src="images/logo.png"></a></div>
+			<!-- dekstop -->
+			<div class="head_container">
+				<div id="modeicon" style="margin-top: 1.8%; padding-top: 0px;
+					padding-bottom: 0px;" onclick="changemod()" style="margin-right: 8%;"> <img
+						src="images/dark-mode.png" style="height: 20px; " alt=""></div>
+				<div class="headerelements"><a class="textmode" href="/contact">Contact me</a></div>
+				<div class="headerelements"><a class="textmode"
+						href="https://www.youtube.com/channel/UC7bzV5BdSTXufiPwLRrjvxA">Youtube</a></div>
+				<div class="headerelements"><a class="textmode" href="/editor">Contest
+						Coding</a></div>
+				<div class="headerelements"><a class="textmode" href="/dsa">DSA</a></div>
+				<div class="headerelements"><a class="textmode" href="/index">Home</a>
+				</div>
+			</div>
+			<button class="openbtn textmode" onclick="openNav()">☰ </button>
+		</div>
+		<!-- Loading Page -->
+		<div id="loading">
+			<table>
+				<tr style="text-align: center;">
+					<td><img src="images/load_logo.png" style="height: 50px;" alt=""></td>
+				</tr>
+				<tr>
+					<td><h1 style="display: block;">Loading...</h1></td>
+				</tr>
+			</table>
+		</div>
+		<div class="background-container">
+			<div class="background-image" id="bg5"></div>
+		</div>
+
+
+		<div class="title2" id="feedBACK">
+			<span>Give Feedback</span>
+			<div class="shortdesc2">
+				<p>Please share your valuable feedback.</p>
+			</div>
+		</div>
+	
+		<div class="feedbox">
+			<div class="feed">
+				<form action="mailto:akashdave554@gmail.com" method="post" enctype="text/plain">
+					<label>Your Name</label><br>
+					<input type="text" name="" class="fname" required="required"><br>
+					<label>Email</label><br>
+					<input type="email" name="mail" required="required"><br>
+					<label>Additional Details</label><br>
+					<textarea name="addtional"></textarea><br>
+					<button type="submit" id="csubmit">Send Message</button>
+				</form>
+			</div>
+		</div>
+	
+		<script src="script.js"></script>
+
+		<div id="footer">
+			<div class="bottomblock textmode">
+				Beat The Luck Dave
+			</div>
+			<div class="socialmedia">
+				<a href="https://www.instagram.com/dave_to_crack_code/"><img
+						src="images/instagram.png" alt=""></a>
+				<a href="https://www.youtube.com/channel/UC7bzV5BdSTXufiPwLRrjvxA"><img
+						src="images/youtube.png" alt=""></a>
+				<a href="https://www.linkedin.com/in/dave-to-crack-code/"><img
+						src="images/linkedin.png" alt=""></a>
+			</div>
+		</div>
+
+	</body>
+</html>

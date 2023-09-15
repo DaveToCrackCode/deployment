@@ -1,0 +1,56 @@
+<link rel="stylesheet" type="text/css" href="/style1.css">
+<div class="background-image" id="bg6">
+    <div class="mock_block">
+        <h2>Apply for Mock Interview</h2>
+        <br>
+            Are you ready to excel in your coding interviews? Mock interview sessions are 
+            here to help! Apply for mock interviews covering the topics you've studied. These 
+            sessions will boost your coding and problem-solving skills, as well as enhance your 
+            communication skills while building your confidence. 
+            Get ready to excel in your job placements and secure that dream role!
+        <form method="post" action="/mock_call">
+            <br><b style="line-height: 100%;">Select Topics</b>:- 
+
+            <table style="font-family:Verdana, Geneva, Tahoma, sans-serif ; font-size: medium;">
+                <tr>
+                    <td><input class="topic-checkbox" name="topics" type="checkbox" value="array_stl_">ArrayStl </td>
+                    <td><input class="topic-checkbox" name="topics" type="checkbox" value="problem_solving_">Problem Solving </td>
+                    <td><input class="topic-checkbox" name="topics" type="checkbox" value="sorting_">Sorting </td>
+                </tr>
+                <tr>
+                    <td><input class="topic-checkbox" name="topics" type="checkbox" value="searching_">Searching </td>
+                    <td><input class="topic-checkbox" name="topics" type="checkbox" value="recursion_">Recursion</td>
+                    <td><input class="topic-checkbox" name="topics" type="checkbox" value="linkList_">LinkList</td>
+                </tr>
+                <tr>
+                    <td><input class="topic-checkbox" name="topics" type="checkbox" value="stack_">Stack </td>
+                    <td><input class="topic-checkbox" name="topics" type="checkbox" value="queue_">Queue </td>
+                    <td><input class="topic-checkbox" name="topics" type="checkbox" value="tree_">Tree </td>
+                </tr>
+                <tr>
+                    <td><input class="topic-checkbox" name="topics" type="checkbox" value="graph_">Graph</td>
+                    <td><input class="topic-checkbox" name="topics" type="checkbox" value="dp_">DP</td>
+                    <td><input class="topic-checkbox" name="topics" type="checkbox" value="oops_">OOPs Concept</td>
+                </tr>
+                <tr>
+                    <td><input class="topic-checkbox" name="topics" type="checkbox" value="dbms_">DBMS</td>
+                    <td><input class="topic-checkbox" name="topics" type="checkbox" value="os_">Operating System</td>
+                    <td><input class="topic-checkbox" name="topics" type="checkbox" value="all_">All Topics  </td>
+                </tr>
+                
+            </table>
+            <button id="apply_for_mock" type="submit">Apply</button>
+        </form>
+
+
+        <div id="success-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                      <p style="color: rgb(5, 255, 5); font-weight: bold;">Applied Successfully! <br>
+                        <h4>You will be informed of the interview timings and platform via email.</h4><br>
+                    </p>
+            </div>
+        </div>			
+            
+    </div>
+</div>
