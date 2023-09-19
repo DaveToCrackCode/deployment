@@ -170,7 +170,7 @@ hr {
 /* mock section starts here */
 .mock_block{
 	color: #000000;
-	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-family: sans-serif;
 	width: 50%;
 	padding-top: 5%;
 	margin-left: 40%;
@@ -759,6 +759,9 @@ hr {
 		background-image: url("images/background/6.jpg");
 	  }
 
+	  #bg5 {
+		background-image: url("images/background/5.jpg");
+	  }
 	  .waviy{
 		font-size: 30px;
 		font-family: sans-serif;
