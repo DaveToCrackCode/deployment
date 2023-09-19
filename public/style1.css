@@ -738,6 +738,59 @@ hr {
 
 
 @media (max-width: 861px) {
+	#bg1 {
+		background-image: url("images/background/1.jpg");
+	  }
+	  
+	  #bg2 {
+		background-image: url("images/background/4.jpg");
+	  }
+	  
+	  #bg3 {
+		background-image: url("images/background/2.jpg");
+	  }
+	  
+	  
+	  #bg4 {
+		background-image: url("images/background/3.jpg");
+	  }
+	  
+	  #bg6 {
+		background-image: url("images/background/6.jpg");
+	  }
+
+	  .waviy{
+		font-size: 30px;
+		font-family: sans-serif;
+	  }
+	  .mock_block{
+		width: 90%;
+		margin-left: 5%;
+		font-size: medium;
+		line-height: 120%;
+		font-family: sans-serif;
+	  }
+	  .blog_block{
+		width: 90%;
+		margin-left: 5%;
+		font-size: medium;
+		line-height: 120%;
+		font-family: sans-serif;
+	  }
+	  .welcome{
+		font-size: medium;
+        line-height: 130%;
+		/* padding-top: 90%; */
+		position: absolute;
+		bottom: 10%;
+		font-weight: normal;
+		font-family: sans-serif;
+	  }
+	  .prev, .next{
+		bottom: 2.5%;
+		padding: 0px;
+	  }
+
 	body{
 		zoom: normal;
 	}
